@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav__o_O__</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-inner">
+                <div class="front">
+                    <h2 style="color: gold;">Gaurav Kumar</h2>
+                    <p style="color: black;">Cloud Dev, India</p>
+                    <button id="flipButton">Click it</button>
+                </div>
+                <div class="back">
+                    <img class="img1" src="https://media.tenor.com/jjTsgXRsbncAAAAi/cat-kitty.gif">
+                    <img class="img2"
+                        src="https://i.pinimg.com/originals/1d/7b/97/1d7b979ceac9f9bf5427584bbdd0b970.gif">
+                    <img class="img3"
+                        src="https://i.pinimg.com/originals/1b/4c/e4/1b4ce4120e8ab274eaab273f805a2401.gif">
+                    <h1>Gaurav <span>Kumar</span></h1>
+                    <p>Hello, I am really interested and anytime ready to work with any project related to
+                        <strong><em>machine learning - AI - neural network - Networking</em></strong>, and many
+                        interesting algorithm
+                        works :~0
+                    </p>
+                    <u>
+                        <p style="text-align: center;">My contacts :3 </p>
+                    </u>
+                    <div class="contact-text">
+                        <div class="linkedin">
+                            <a class="image1" href="https://www.linkedin.com/in/gaurav-kumar-155b7a256/"
+                                target="_blank">
+                                <img src="images/png-clipart-linkedin-linkedin-thumbnail.png">
+                            </a>
+                        </div>
+                        <div class="instagram">
+                            <a class="image2" href="https://www.instagram.com/gaurav_kumar.28/" target="_blank">
+                                <img src="images/Instagram_icon.png.webp">
+                            </a>
+                        </div>
+                        <div class="twitter">
+                            <a class="image3" href="https://x.com/GauravKumar_27" target="_blank">
+                                <img src="images/png-clipart-twitter-twitter-thumbnail.png">
+                            </a>
+                        </div>
+                        <div>
+                            <button class="but" id="flipButton2">Go back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('flipButton').addEventListener('click', function () {
+            document.querySelector('.card-inner').classList.toggle('flipped');
+        });
+
+        document.getElementById('flipButton2').addEventListener('click', function () {
+            document.querySelector('.card-inner').classList.remove('flipped');
+        });
+    </script>
+</body>
+
+</html>
