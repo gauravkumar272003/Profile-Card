@@ -1,0 +1,6 @@
+https://gauravkumar272003.github.io/Profile-Card/
+Live at here 
+
+But i need some help.. i dont know why the first image is not loading... 
+if you know pls help me out,, 
+same problem is with icons alsoo ... 
